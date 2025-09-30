@@ -1,6 +1,6 @@
 ## fullstackopen
 
-### This repository contain all of my solutions for the fullstackopen certification from the University of Helsinky
+### This repository contain all of my solutions for the fullstackopen certification from the University of Helsinki
 
 ---
 ---
