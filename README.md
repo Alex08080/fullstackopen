@@ -11,7 +11,7 @@
 - All of the fundamentals that I have to know in order to be able to take this course
 - For the exercise part: Diagrams to do in mermaid format, to understand how browser and server communicate with each other when loading the page and posting some data is done
 
-##Part 1
+## Part 1
 
 
 - Introduction to React
