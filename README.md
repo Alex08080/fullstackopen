@@ -42,4 +42,4 @@
 - Deploy an entire application on the internet(frontend / backend) with Render
   - Cors policy problems
   - proxy prob
-  
+  - be sure that it still work in production mode and development mode 
