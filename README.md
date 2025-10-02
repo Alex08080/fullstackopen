@@ -32,3 +32,10 @@
 - promises and how to handle errors
 - Styling with CSS
 - useState null and reload a UseEffect with its second member  
+
+## Part 3
+
+- How to create a simple back end server with http request
+- How to use express to simplify to management of the backend
+  - CRUD and REST applications
+- Postman
