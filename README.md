@@ -39,3 +39,7 @@
 - How to use express to simplify to management of the backend
   - CRUD and REST applications
 - Postman
+- Deploy an entire application on the internet(frontend / backend) with Render
+  - Cors policy problems
+  - proxy prob
+  
