@@ -1,0 +1,403 @@
+{
+  "countries":[
+  {
+    "id": 1,
+    "name": "France",
+    "capital": "Paris",
+    "area_km2": 551695,
+    "flag": "🇫🇷",
+    "languages": ["Français"]
+  },
+  {
+    "id": 2,
+    "name": "Germany",
+    "capital": "Berlin",
+    "area_km2": 357022,
+    "flag": "🇩🇪",
+    "languages": ["Allemand"]
+  },
+  {
+    "id": 3,
+    "name": "Spain",
+    "capital": "Madrid",
+    "area_km2": 505990,
+    "flag": "🇪🇸",
+    "languages": ["Espagnol", "Catalan", "Basque", "Galicien"]
+  },
+  {
+    "id": 4,
+    "name": "Italy",
+    "capital": "Rome",
+    "area_km2": 301340,
+    "flag": "🇮🇹",
+    "languages": ["Italien"]
+  },
+  {
+    "id": 5,
+    "name": "Portugal",
+    "capital": "Lisbonne",
+    "area_km2": 92212,
+    "flag": "🇵🇹",
+    "languages": ["Portugais"]
+  },
+  {
+    "id": 6,
+    "name": "United Kingdom",
+    "capital": "Londres",
+    "area_km2": 243610,
+    "flag": "🇬🇧",
+    "languages": ["Anglais", "Gallois", "Gaélique écossais"]
+  },
+  {
+    "id": 7,
+    "name": "United States",
+    "capital": "Washington, D.C.",
+    "area_km2": 9833517,
+    "flag": "🇺🇸",
+    "languages": ["Anglais", "Espagnol"]
+  },
+  {
+    "id": 8,
+    "name": "Canada",
+    "capital": "Ottawa",
+    "area_km2": 9984670,
+    "flag": "🇨🇦",
+    "languages": ["Anglais", "Français"]
+  },
+  {
+    "id": 9,
+    "name": "Brazil",
+    "capital": "Brasilia",
+    "area_km2": 8515767,
+    "flag": "🇧🇷",
+    "languages": ["Portugais"]
+  },
+  {
+    "id": 10,
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "area_km2": 2780400,
+    "flag": "🇦🇷",
+    "languages": ["Espagnol"]
+  },
+  {
+    "id": 11,
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "area_km2": 1964375,
+    "flag": "🇲🇽",
+    "languages": ["Espagnol"]
+  },
+  {
+    "id": 12,
+    "name": "China",
+    "capital": "Pékin",
+    "area_km2": 9596961,
+    "flag": "🇨🇳",
+    "languages": ["Mandarin", "Cantonais"]
+  },
+  {
+    "id": 13,
+    "name": "India",
+    "capital": "New Delhi",
+    "area_km2": 3287263,
+    "flag": "🇮🇳",
+    "languages": ["Hindi", "Anglais", "Bengali", "Tamoul"]
+  },
+  {
+    "id": 14,
+    "name": "Russia",
+    "capital": "Moscou",
+    "area_km2": 17098242,
+    "flag": "🇷🇺",
+    "languages": ["Russe"]
+  },
+  {
+    "id": 15,
+    "name": "Japan",
+    "capital": "Tokyo",
+    "area_km2": 377975,
+    "flag": "🇯🇵",
+    "languages": ["Japonais"]
+  },
+  {
+    "id": 16,
+    "name": "South Korea",
+    "capital": "Séoul",
+    "area_km2": 100210,
+    "flag": "🇰🇷",
+    "languages": ["Coréen"]
+  },
+  {
+    "id": 17,
+    "name": "Australia",
+    "capital": "Canberra",
+    "area_km2": 7692024,
+    "flag": "🇦🇺",
+    "languages": ["Anglais"]
+  },
+  {
+    "id": 18,
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "area_km2": 268021,
+    "flag": "🇳🇿",
+    "languages": ["Anglais", "Maori"]
+  },
+  {
+    "id": 19,
+    "name": "South Africa",
+    "capital": "Pretoria (administrative)",
+    "area_km2": 1221037,
+    "flag": "🇿🇦",
+    "languages": ["Anglais", "Afrikaans", "Zoulou", "Xhosa"]
+  },
+  {
+    "id": 20,
+    "name": "Egypt",
+    "capital": "Le Caire",
+    "area_km2": 1002450,
+    "flag": "🇪🇬",
+    "languages": ["Arabe"]
+  },
+  {
+    "id": 21,
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "area_km2": 923768,
+    "flag": "🇳🇬",
+    "languages": ["Anglais", "Haoussa", "Yoruba", "Igbo"]
+  },
+  {
+    "id": 22,
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "area_km2": 580367,
+    "flag": "🇰🇪",
+    "languages": ["Swahili", "Anglais"]
+  },
+  {
+    "id": 23,
+    "name": "Morocco",
+    "capital": "Rabat",
+    "area_km2": 446550,
+    "flag": "🇲🇦",
+    "languages": ["Arabe", "Amazigh", "Français"]
+  },
+  {
+    "id": 24,
+    "name": "Turkey",
+    "capital": "Ankara",
+    "area_km2": 783562,
+    "flag": "🇹🇷",
+    "languages": ["Turc"]
+  },
+  {
+    "id": 25,
+    "name": "Saudi Arabia",
+    "capital": "Riyad",
+    "area_km2": 2149690,
+    "flag": "🇸🇦",
+    "languages": ["Arabe"]
+  },
+  {
+    "id": 26,
+    "name": "Iran",
+    "capital": "Téhéran",
+    "area_km2": 1648195,
+    "flag": "🇮🇷",
+    "languages": ["Persan (Farsi)"]
+  },
+  {
+    "id": 27,
+    "name": "Iraq",
+    "capital": "Bagdad",
+    "area_km2": 438317,
+    "flag": "🇮🇶",
+    "languages": ["Arabe", "Kurde"]
+  },
+  {
+    "id": 28,
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "area_km2": 881913,
+    "flag": "🇵🇰",
+    "languages": ["Ourdou", "Anglais", "Pendjabi"]
+  },
+  {
+    "id": 29,
+    "name": "Bangladesh",
+    "capital": "Dacca",
+    "area_km2": 147570,
+    "flag": "🇧🇩",
+    "languages": ["Bengali"]
+  },
+  {
+    "id": 30,
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "area_km2": 1904569,
+    "flag": "🇮🇩",
+    "languages": ["Indonésien"]
+  },
+  {
+    "id": 31,
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "area_km2": 513120,
+    "flag": "🇹🇭",
+    "languages": ["Thaï"]
+  },
+  {
+    "id": 32,
+    "name": "Vietnam",
+    "capital": "Hanoï",
+    "area_km2": 331212,
+    "flag": "🇻🇳",
+    "languages": ["Vietnamien"]
+  },
+  {
+    "id": 33,
+    "name": "Philippines",
+    "capital": "Manille",
+    "area_km2": 300000,
+    "flag": "🇵🇭",
+    "languages": ["Filipino", "Anglais"]
+  },
+  {
+    "id": 34,
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "area_km2": 330803,
+    "flag": "🇲🇾",
+    "languages": ["Malais", "Anglais", "Tamoul", "Chinois"]
+  },
+  {
+    "id": 35,
+    "name": "Singapore",
+    "capital": "Singapour",
+    "area_km2": 728,
+    "flag": "🇸🇬",
+    "languages": ["Anglais", "Malais", "Mandarin", "Tamoul"]
+  },
+  {
+    "id": 36,
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "area_km2": 450295,
+    "flag": "🇸🇪",
+    "languages": ["Suédois"]
+  },
+  {
+    "id": 37,
+    "name": "Norway",
+    "capital": "Oslo",
+    "area_km2": 385207,
+    "flag": "🇳🇴",
+    "languages": ["Norvégien"]
+  },
+  {
+    "id": 38,
+    "name": "Finland",
+    "capital": "Helsinki",
+    "area_km2": 338424,
+    "flag": "🇫🇮",
+    "languages": ["Finnois", "Suédois"]
+  },
+  {
+    "id": 39,
+    "name": "Denmark",
+    "capital": "Copenhague",
+    "area_km2": 42933,
+    "flag": "🇩🇰",
+    "languages": ["Danois"]
+  },
+  {
+    "id": 40,
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "area_km2": 41543,
+    "flag": "🇳🇱",
+    "languages": ["Néerlandais"]
+  },
+  {
+    "id": 41,
+    "name": "Belgium",
+    "capital": "Bruxelles",
+    "area_km2": 30528,
+    "flag": "🇧🇪",
+    "languages": ["Français", "Néerlandais", "Allemand"]
+  },
+  {
+    "id": 42,
+    "name": "Switzerland",
+    "capital": "Berne",
+    "area_km2": 41284,
+    "flag": "🇨🇭",
+    "languages": ["Allemand", "Français", "Italien", "Romanche"]
+  },
+  {
+    "id": 43,
+    "name": "Austria",
+    "capital": "Vienne",
+    "area_km2": 83879,
+    "flag": "🇦🇹",
+    "languages": ["Allemand"]
+  },
+  {
+    "id": 44,
+    "name": "Poland",
+    "capital": "Varsovie",
+    "area_km2": 312679,
+    "flag": "🇵🇱",
+    "languages": ["Polonais"]
+  },
+  {
+    "id": 45,
+    "name": "Ukraine",
+    "capital": "Kiev",
+    "area_km2": 603500,
+    "flag": "🇺🇦",
+    "languages": ["Ukrainien"]
+  },
+  {
+    "id": 46,
+    "name": "Greece",
+    "capital": "Athènes",
+    "area_km2": 131957,
+    "flag": "🇬🇷",
+    "languages": ["Grec"]
+  },
+  {
+    "id": 47,
+    "name": "Israel",
+    "capital": "Jérusalem",
+    "area_km2": 22072,
+    "flag": "🇮🇱",
+    "languages": ["Hébreu", "Arabe"]
+  },
+  {
+    "id": 48,
+    "name": "Chile",
+    "capital": "Santiago",
+    "area_km2": 756102,
+    "flag": "🇨🇱",
+    "languages": ["Espagnol"]
+  },
+  {
+    "id": 49,
+    "name": "Peru",
+    "capital": "Lima",
+    "area_km2": 1285216,
+    "flag": "🇵🇪",
+    "languages": ["Espagnol", "Quechua", "Aymara"]
+  },
+  {
+    "id": 50,
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "area_km2": 1141748,
+    "flag": "🇨🇴",
+    "languages": ["Espagnol"]
+  }
+]}

@@ -21,3 +21,14 @@
 - All the basic of Javascript that are needed
 - Component more in depth, component state and event handlers
 - state and event handlers in depth, handling arrays
+
+## Part 2
+
+- Higher function for arrays (map,reduce,filter,etc...)
+- Components state using, filter display 
+- Deploy json server for the database, use of UseEffect and axios 
+- Get, post, delete, put methods with axios and how to use it
+  - How to properly defind these methods 
+- promises and how to handle errors
+- Styling with CSS
+- useState null and reload a UseEffect with its second member  
