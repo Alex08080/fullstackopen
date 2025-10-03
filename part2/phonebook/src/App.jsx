@@ -31,7 +31,7 @@ const App = () => {
 
   const addperson = (event) => {
     event.preventDefault()
-    const newNam={
+    const newPerson={
       name:newName,
       number:newNumber
     }
@@ -63,7 +63,7 @@ const App = () => {
           })
           .catch(error => {
             setErrorMessage(
-          `Note '${newNam.name}' was already removed from server`
+          `Note '${existingPerson.name}' was already removed from server`
         )
         setTimeout(() => {
           setErrorMessage('')
@@ -74,17 +74,24 @@ const App = () => {
       
     }
     else{
-      PersonService.create(newNam)
+      PersonService.create(newPerson)
       .then(createdPerson=>{
         setPersons(persons.concat(createdPerson))
-      })
-      setPersons(persons.concat(newNam))
-      setNewName('')
-      setNewNumber('')
-      setSuccessMessage(`Added ${newNam.name}`)
-      setTimeout(() => {
+        setNewName('')
+        setNewNumber('')
+        setSuccessMessage(`Added ${newPerson.name}`)
+        setTimeout(() => {
           setSuccessMessage('')
         }, 3000)
+      })
+      .catch(error => { 
+        setErrorMessage(error.response.data.error)
+        setTimeout(()=>{
+          setErrorMessage('')
+        },3000)
+        console.log(error.response.data.error)
+      })
+      
           
     }
     
