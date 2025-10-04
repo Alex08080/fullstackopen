@@ -43,3 +43,5 @@
   - Cors policy problems
   - proxy prob
   - be sure that it still work in production mode and development mode 
+- Deploying the database to production and connect the error messages with the frontend 
+- Use of Eslint a tool to help debugging and indenting style 
